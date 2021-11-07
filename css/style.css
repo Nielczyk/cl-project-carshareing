@@ -1,0 +1,255 @@
+body
+{
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+* {margin: 0;}
+.banner {
+    position: relative;
+    display: flex;
+    background-image: url("../images/image.jpg");
+    height:808px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+.banner img {
+    width:100%;
+}
+ul{
+    display: flex;
+    margin-right: 165px;
+    align-items: center;
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 0px black;
+    z-index: 5;
+    width: 100%;
+    height: 88px;
+    font-family: 'Nunito Sans', sans-serif;
+
+   
+}
+ .logo img{
+    width:  35px;
+    height: 32px;
+}
+ .logo p{
+    position: ;
+    font-size: 35px;
+    font-weight: 400;
+    color: #FF0000;
+    text-transform: uppercase;
+}
+ .logo {
+    display: flex;
+    align-items: baseline;
+    margin-left:141px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+}
+ .logo p span{
+    color: white;
+}
+header ul{
+
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    opacity: 100%;
+
+ 
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+h1 {
+    font-size: 90px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-width: 900;
+  
+}
+p {
+    color: white;
+    padding-bottom: 55px;
+    align-items: center;
+} /*koniec sekcji menu*/
+.tekstbaner{
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index:4;
+}
+
+.btn{
+    left: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 35px;
+    padding: 22px 55px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-transform: uppercase;
+    font-family:  'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+.btn.btn--primary{
+    background-color: #FF0000;
+}
+.btn.btn--secondary{
+    background-color: white;
+}
+.btn:first-of-type {
+    color: white;
+}
+.btn:last-of-type{
+    color: #FF0000;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.banner:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:808px;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index:2;
+}
+
+}
+header ul li:hover{
+    font-size: 2em;
+}
+
+.banner a{
+    position: absolute;
+    bottom:-27px;
+    left: 48.5%;
+    background-color: #ff0000;
+    height: 21px;
+    width: 21px;
+    padding: 17px;
+    border-radius: 50%;
+    z-index: 7;
+}
+/* Koniec sekcji banera*/
+/* sekcja blog*/
+main{
+    display:flex;
+    justify-content: center;
+    margin-top:65px;
+}
+h2 {
+    display:inline;
+    position: relative;
+    font-size: 35px;
+}
+h2:before {
+    content: " ";
+    height: 3px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top:50%;
+    right:100px;
+    z-index: 100;
+}
+h2:after {
+    content: " ";
+    height: 3px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top:50%;
+    left:100px;
+    z-index: 100;
+}
+.Sekcja2{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main1, .main2, .main3 {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font: normal normal 300 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #6A6A6A;
+
+}
+
+.Sekcja2 img{
+    width:352px;
+    height:234px;
+}
+.Sekcja2 p{
+    color: black;
+    padding-bottom:15px;
+}
+h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.Sekcja2 p{
+    text-align: left;
+    font: normal normal 300 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #6A6A6A;
+    opacity: 1;}
+.button1, .button2, .button3
+{
+    background-color: #ff0000;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 142px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border-radius: 40px;
+}
+}
+/* ko blog*/
